@@ -1,141 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-<style>
-h1 {
-    text-align: center;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    width : 150px;
-    height: 50px;
-}
-th, td {
-    padding: 20px;
-}
-th {
-    text-align: center;
-}
-
-#reading{
-  background-color: #fee796;
-}
-
-#math{
-  background-color: #92E7FA;
-}
-
-#eng {
-  background-color: #FACCAE;
-}
-
-#earth {
-  background-color: #9affb5;
-}
-
-#prob {
-  background-color: #FFD1FF;
-}
-
-#phy {
-  background-color: #d5d6db;
-}
-
-#jap {
-  background-color:  oldlace;
-}
-
-#PE {
-  background-color: honeydew;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
- <h1>2-8 시간표</h1>
-
-<table style="width:100%">
- <caption>2-8 2학기 시간표</caption>
-
-  <tr>
-    <th> </th>
-    <th>월</th>
-    <th>화</th>
-    <th>수</th>
-    <th>목</th>
-    <th>금</th>
-  </tr>
+    <table border="1">
+        
     <tr>
-    <th>1교시</th>
-    <td id="reading">독서</td>
-    <td id="math">수학II</td>
-    <td rowspan="2" style="background-color: rgb(183, 229, 157);">과제</td>
-    <td id="eng">영어II</td>
-    <td id="math">수학II</td>
-   </tr>
+        <th>3-8반 시간표</th>
+        <td>월</td>
+        <td>화</td>
+        <td>수</td>
+        <td>목</td>
+        <td>금</td>
+    </tr>
+    <!-- 1교시 -->
     <tr>
-    <th>2교시</th>
-    <td id="earth">지구I</td>
-    <td id="earth">지구I</td>
-    <td id="jap">일본어</td>
-    <td rowspan="2" style="background-color: burlywood;">미술</td>
-  </tr>
+        <td>1교시</td>
+        <td>화작</td>
+        <td>진로영어</td>
+        <td>기하</td>
+        <td>물Ⅱ</td>
+        <td>물Ⅱ</td>
+    </tr>
+    <!-- 2교시 -->
     <tr>
-    <th>3교시</th>
-    <td id="PE">운동</td>
-    <td id="jap">일본어</td>
-    <td id="earth">지구I</td>
-    <td id="math">수학II</td>
-  </tr>
-   <tr>
-    <th>4교시</th>
-    <td id="eng">영어II</td>
-    <td id="PE">운동</td>
-    <td id="reading">독서</td>
-    <td id="phy">물리I</td>
-    <td id="phy">물리I</td>
-  </tr>
-   <tr>
-    <th>5교시</th>
-    <td id="earth">지구I</td>
-    <td id="reading">독서</td>
-    <td id="prob">확통</td>
-    <td id="prob">확통</td>
-    <td>자율</td>
-  </tr>
-   <tr>
-    <th>6교시</th>
-    <td id="math">수학II</td>
-    <td id="eng">영어II</td>
-    <td id="phy">물리I</td>
-    <td id="reading">독서</td>
-    <td rowspan="2">창체</td>
-  </tr>
-   <tr>
-    <th>7교시</th>
-    <td id="jap">일본어</td>
-    <td id="phy">물리I</td>
-    <td id="eng">영어II</td>
-    <td>진로</td>
-    
-  </tr>
-  <tr>
-   <th>8교시</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-
-</table>
-
-
-<div style="text-align: center; margin-top: 100px;"><img src="adplz.png"></div>
-
+        <td>2교시</td>
+        <td>기하</td>
+        <td>스포츠</td>
+        <td>사탐</td>
+        <td>생Ⅱ</td>
+        <td>미적</td>
+    </tr>
+    <!-- 3교시 -->
+    <tr>
+        <td>3교시</td>
+        <td>생Ⅱ</td>
+        <td>화작</td>
+        <td>물Ⅱ</td>
+        <td>사탐</td>
+        <td>한문</td>
+    </tr>
+    <!-- 4교시 -->
+    <tr>
+        <td>4교시</td>
+        <td>범교과</td>
+        <td>한문</td>
+        <td>진로영어</td>
+        <td>화Ⅱ</td>
+        <td>진로</td>
+    </tr>
+    <!-- 5교시 -->
+    <tr>
+        <td>5교시</td>
+        <td>미적</td>
+        <td>생Ⅱ</td>
+        <td>화Ⅱ</td>
+        <td>기하</td>
+        <td>진로영어</td>
+    </tr>
+    <!-- 6교시 -->
+    <tr>
+        <td>6교시</td>
+        <td>지Ⅱ</td>
+        <td>미적</td>
+        <td>화작</td>
+        <td>지Ⅱ</td>
+        <td>창체</td>
+    </tr>
+    <!-- 7교시 -->
+    <tr>
+        <td>7교시</td>
+        <td>화Ⅱ</td>
+        <td>기하</td>
+        <td>지Ⅱ</td>
+        <td>미적</td>
+        <td>창체</td>
+    </tr>
+    <!-- 8교시 -->
+    <tr>
+        <td>8교시</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </table>
 </body>
 </html>
