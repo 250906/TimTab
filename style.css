@@ -39,11 +39,11 @@ b{
     font-size: 130%; 
 }
 
-.bottom{
-    top: 100%;
-    left: 100%;
-    color: #797F84;
-    
+.name{
+    color: #4a4a4a;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }
 
 @media screen and (max-width: 768px) {
@@ -78,8 +78,10 @@ b{
         font-size: 130%; 
     }
     
-    .bottom{
-        top: 100%;
-        left: 100%;
-        color: #797F84;
+    .name{
+        color: #4a4a4a;
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+    }    
   }
